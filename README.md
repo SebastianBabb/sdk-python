@@ -21,7 +21,7 @@ https://www.sphinx-doc.org/en/master/
 From docs/
 
 #### Add any new modules.
-`sphinx-apidoc -o source/ ../client` 
+`sphinx-apidoc -o source/ ./client` 
 
 #### Build documentation.
-`make html`
+`cd docs && make html`
